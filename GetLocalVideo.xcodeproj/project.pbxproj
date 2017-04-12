@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DA7EDE0B00F3194C6F68EF /* libPods-GetLocalVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A13C95515A6536F995A477 /* libPods-GetLocalVideo.a */; };
+		562ADF441DD58F7400049A7B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 562ADF431DD58F7400049A7B /* TableViewCell.m */; };
+		562ADF471DD58F8E00049A7B /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 562ADF461DD58F8E00049A7B /* VideoModel.m */; };
+		562ADF501DD590FA00049A7B /* AlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 562ADF4F1DD590FA00049A7B /* AlbumManager.m */; };
+		562ADF601DD59DAC00049A7B /* FileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 562ADF5F1DD59DAC00049A7B /* FileWatcher.m */; };
+		564BAD081D7D532000D63F56 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564BAD071D7D532000D63F56 /* FirstViewController.m */; };
+		568105011D7D20B400C80E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 568105001D7D20B400C80E06 /* main.m */; };
+		568105041D7D20B400C80E06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568105031D7D20B400C80E06 /* AppDelegate.m */; };
+		5681050A1D7D20B400C80E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568105081D7D20B400C80E06 /* Main.storyboard */; };
+		5681050F1D7D20B400C80E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5681050D1D7D20B400C80E06 /* LaunchScreen.storyboard */; };
+		56EEA5B21D7EC62400379B37 /* playerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEA5B11D7EC62400379B37 /* playerViewController.m */; };
+		648B2DCC1E2DA4D500A1C0C6 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648B2DCB1E2DA4D500A1C0C6 /* TabBarViewController.m */; };
+		649A6A561E2F489E00141A96 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649A6A551E2F489E00141A96 /* BaseViewController.m */; };
+		64A8BC141E52F82100162EEB /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BBFC1E52F82100162EEB /* Notifications.m */; };
+		64A8BC151E52F82100162EEB /* NSString+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BBFE1E52F82100162EEB /* NSString+category.m */; };
+		64A8BC161E52F82100162EEB /* SandBoxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC001E52F82100162EEB /* SandBoxHelper.m */; };
+		64A8BC171E52F82100162EEB /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC021E52F82100162EEB /* Slider.m */; };
+		64A8BC181E52F82100162EEB /* UIColor+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC041E52F82100162EEB /* UIColor+category.m */; };
+		64A8BC191E52F82100162EEB /* UIImage+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC061E52F82100162EEB /* UIImage+category.m */; };
+		64A8BC1A1E52F82100162EEB /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC081E52F82100162EEB /* UIImage+Extension.m */; };
+		64A8BC1B1E52F82100162EEB /* UIImage+ScaleToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC0A1E52F82100162EEB /* UIImage+ScaleToSize.m */; };
+		64A8BC1C1E52F82100162EEB /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC0C1E52F82100162EEB /* UIImage+TintColor.m */; };
+		64A8BC1D1E52F82100162EEB /* UILabel+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC0E1E52F82100162EEB /* UILabel+category.m */; };
+		64A8BC1E1E52F82100162EEB /* UIView+PVRExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC101E52F82100162EEB /* UIView+PVRExtention.m */; };
+		64A8BC1F1E52F82100162EEB /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC121E52F82100162EEB /* UIView+SetRect.m */; };
+		64A8BC231E52F8B700162EEB /* AlbumVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC221E52F8B700162EEB /* AlbumVideoViewController.m */; };
+		64A8BC271E52F8C000162EEB /* iTunesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8BC261E52F8C000162EEB /* iTunesViewController.m */; };
+		64A8BC4E1E52FA8900162EEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64A8BC4D1E52FA8900162EEB /* Info.plist */; };
+		64A8BC501E52FAA000162EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A8BC4F1E52FAA000162EEB /* Assets.xcassets */; };
+		64E33CDF1E53E5D4004B1A87 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E33CDE1E53E5D4004B1A87 /* Foundation+Log.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0503D91694534A10F01A0411 /* Pods-GetLocalVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetLocalVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetLocalVideo/Pods-GetLocalVideo.release.xcconfig"; sourceTree = "<group>"; };
+		562ADF421DD58F7400049A7B /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		562ADF431DD58F7400049A7B /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		562ADF451DD58F8E00049A7B /* VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		562ADF461DD58F8E00049A7B /* VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		562ADF4E1DD590FA00049A7B /* AlbumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumManager.h; sourceTree = "<group>"; };
+		562ADF4F1DD590FA00049A7B /* AlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumManager.m; sourceTree = "<group>"; };
+		562ADF5E1DD59DAC00049A7B /* FileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWatcher.h; sourceTree = "<group>"; };
+		562ADF5F1DD59DAC00049A7B /* FileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWatcher.m; sourceTree = "<group>"; };
+		564BAD061D7D532000D63F56 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		564BAD071D7D532000D63F56 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		568104FC1D7D20B400C80E06 /* GetLocalVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetLocalVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		568105001D7D20B400C80E06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		568105021D7D20B400C80E06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		568105031D7D20B400C80E06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		568105091D7D20B400C80E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5681050E1D7D20B400C80E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56EEA5B01D7EC62400379B37 /* playerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playerViewController.h; sourceTree = "<group>"; };
+		56EEA5B11D7EC62400379B37 /* playerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playerViewController.m; sourceTree = "<group>"; };
+		648B2DCA1E2DA4D500A1C0C6 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		648B2DCB1E2DA4D500A1C0C6 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		649A6A541E2F489E00141A96 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		649A6A551E2F489E00141A96 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		649A6A681E2F740200141A96 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		64A13C95515A6536F995A477 /* libPods-GetLocalVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GetLocalVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A8BBFA1E52F82100162EEB /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		64A8BBFB1E52F82100162EEB /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		64A8BBFC1E52F82100162EEB /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
+		64A8BBFD1E52F82100162EEB /* NSString+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+category.h"; sourceTree = "<group>"; };
+		64A8BBFE1E52F82100162EEB /* NSString+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+category.m"; sourceTree = "<group>"; };
+		64A8BBFF1E52F82100162EEB /* SandBoxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandBoxHelper.h; sourceTree = "<group>"; };
+		64A8BC001E52F82100162EEB /* SandBoxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandBoxHelper.m; sourceTree = "<group>"; };
+		64A8BC011E52F82100162EEB /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
+		64A8BC021E52F82100162EEB /* Slider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
+		64A8BC031E52F82100162EEB /* UIColor+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+category.h"; sourceTree = "<group>"; };
+		64A8BC041E52F82100162EEB /* UIColor+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+category.m"; sourceTree = "<group>"; };
+		64A8BC051E52F82100162EEB /* UIImage+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+category.h"; sourceTree = "<group>"; };
+		64A8BC061E52F82100162EEB /* UIImage+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+category.m"; sourceTree = "<group>"; };
+		64A8BC071E52F82100162EEB /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		64A8BC081E52F82100162EEB /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		64A8BC091E52F82100162EEB /* UIImage+ScaleToSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleToSize.h"; sourceTree = "<group>"; };
+		64A8BC0A1E52F82100162EEB /* UIImage+ScaleToSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleToSize.m"; sourceTree = "<group>"; };
+		64A8BC0B1E52F82100162EEB /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
+		64A8BC0C1E52F82100162EEB /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
+		64A8BC0D1E52F82100162EEB /* UILabel+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+category.h"; sourceTree = "<group>"; };
+		64A8BC0E1E52F82100162EEB /* UILabel+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+category.m"; sourceTree = "<group>"; };
+		64A8BC0F1E52F82100162EEB /* UIView+PVRExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PVRExtention.h"; sourceTree = "<group>"; };
+		64A8BC101E52F82100162EEB /* UIView+PVRExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PVRExtention.m"; sourceTree = "<group>"; };
+		64A8BC111E52F82100162EEB /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		64A8BC121E52F82100162EEB /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		64A8BC211E52F8B700162EEB /* AlbumVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumVideoViewController.h; sourceTree = "<group>"; };
+		64A8BC221E52F8B700162EEB /* AlbumVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumVideoViewController.m; sourceTree = "<group>"; };
+		64A8BC251E52F8C000162EEB /* iTunesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunesViewController.h; sourceTree = "<group>"; };
+		64A8BC261E52F8C000162EEB /* iTunesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTunesViewController.m; sourceTree = "<group>"; };
+		64A8BC4D1E52FA8900162EEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A8BC4F1E52FAA000162EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64E33CDE1E53E5D4004B1A87 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		AF079AC0ABA6C33902AABF96 /* Pods-GetLocalVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetLocalVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetLocalVideo/Pods-GetLocalVideo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568104F91D7D20B400C80E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DA7EDE0B00F3194C6F68EF /* libPods-GetLocalVideo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41401E49820CA03B0A18B77D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64A13C95515A6536F995A477 /* libPods-GetLocalVideo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5609BBE01D7FE80B00FAE056 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				568105021D7D20B400C80E06 /* AppDelegate.h */,
+				568105031D7D20B400C80E06 /* AppDelegate.m */,
+				562ADF3F1DD58EE600049A7B /* Controllers */,
+				562ADF401DD58EF400049A7B /* Views */,
+				562ADF411DD58F3300049A7B /* Models */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		562ADF3E1DD5753F00049A7B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				562ADF5E1DD59DAC00049A7B /* FileWatcher.h */,
+				562ADF5F1DD59DAC00049A7B /* FileWatcher.m */,
+				562ADF4E1DD590FA00049A7B /* AlbumManager.h */,
+				562ADF4F1DD590FA00049A7B /* AlbumManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		562ADF3F1DD58EE600049A7B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				564BAD061D7D532000D63F56 /* FirstViewController.h */,
+				564BAD071D7D532000D63F56 /* FirstViewController.m */,
+				649A6A541E2F489E00141A96 /* BaseViewController.h */,
+				649A6A551E2F489E00141A96 /* BaseViewController.m */,
+				648B2DCA1E2DA4D500A1C0C6 /* TabBarViewController.h */,
+				648B2DCB1E2DA4D500A1C0C6 /* TabBarViewController.m */,
+				56EEA5B01D7EC62400379B37 /* playerViewController.h */,
+				56EEA5B11D7EC62400379B37 /* playerViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		562ADF401DD58EF400049A7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				562ADF421DD58F7400049A7B /* TableViewCell.h */,
+				562ADF431DD58F7400049A7B /* TableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		562ADF411DD58F3300049A7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				562ADF451DD58F8E00049A7B /* VideoModel.h */,
+				562ADF461DD58F8E00049A7B /* VideoModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		568104F31D7D20B400C80E06 = {
+			isa = PBXGroup;
+			children = (
+				568104FE1D7D20B400C80E06 /* GetLocalVideo */,
+				568104FD1D7D20B400C80E06 /* Products */,
+				BC3FF308DC30BA3758802D43 /* Pods */,
+				41401E49820CA03B0A18B77D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		568104FD1D7D20B400C80E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568104FC1D7D20B400C80E06 /* GetLocalVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568104FE1D7D20B400C80E06 /* GetLocalVideo */ = {
+			isa = PBXGroup;
+			children = (
+				64A8BC241E52F8C000162EEB /* iTunesVideo */,
+				64A8BC201E52F8B700162EEB /* AlbumVideo */,
+				64A8BBF71E52F82100162EEB /* Tool */,
+				5609BBE01D7FE80B00FAE056 /* Base */,
+				562ADF3E1DD5753F00049A7B /* Manager */,
+				568104FF1D7D20B400C80E06 /* Supporting Files */,
+			);
+			path = GetLocalVideo;
+			sourceTree = "<group>";
+		};
+		568104FF1D7D20B400C80E06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568105081D7D20B400C80E06 /* Main.storyboard */,
+				5681050D1D7D20B400C80E06 /* LaunchScreen.storyboard */,
+				64A8BC4F1E52FAA000162EEB /* Assets.xcassets */,
+				568105001D7D20B400C80E06 /* main.m */,
+				649A6A681E2F740200141A96 /* PrefixHeader.pch */,
+				64A8BC4D1E52FA8900162EEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64A8BBF71E52F82100162EEB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				64E33CDE1E53E5D4004B1A87 /* Foundation+Log.m */,
+				64A8BBFA1E52F82100162EEB /* Header.h */,
+				64A8BBFB1E52F82100162EEB /* Notifications.h */,
+				64A8BBFC1E52F82100162EEB /* Notifications.m */,
+				64A8BBFD1E52F82100162EEB /* NSString+category.h */,
+				64A8BBFE1E52F82100162EEB /* NSString+category.m */,
+				64A8BBFF1E52F82100162EEB /* SandBoxHelper.h */,
+				64A8BC001E52F82100162EEB /* SandBoxHelper.m */,
+				64A8BC011E52F82100162EEB /* Slider.h */,
+				64A8BC021E52F82100162EEB /* Slider.m */,
+				64A8BC031E52F82100162EEB /* UIColor+category.h */,
+				64A8BC041E52F82100162EEB /* UIColor+category.m */,
+				64A8BC051E52F82100162EEB /* UIImage+category.h */,
+				64A8BC061E52F82100162EEB /* UIImage+category.m */,
+				64A8BC071E52F82100162EEB /* UIImage+Extension.h */,
+				64A8BC081E52F82100162EEB /* UIImage+Extension.m */,
+				64A8BC091E52F82100162EEB /* UIImage+ScaleToSize.h */,
+				64A8BC0A1E52F82100162EEB /* UIImage+ScaleToSize.m */,
+				64A8BC0B1E52F82100162EEB /* UIImage+TintColor.h */,
+				64A8BC0C1E52F82100162EEB /* UIImage+TintColor.m */,
+				64A8BC0D1E52F82100162EEB /* UILabel+category.h */,
+				64A8BC0E1E52F82100162EEB /* UILabel+category.m */,
+				64A8BC0F1E52F82100162EEB /* UIView+PVRExtention.h */,
+				64A8BC101E52F82100162EEB /* UIView+PVRExtention.m */,
+				64A8BC111E52F82100162EEB /* UIView+SetRect.h */,
+				64A8BC121E52F82100162EEB /* UIView+SetRect.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		64A8BC201E52F8B700162EEB /* AlbumVideo */ = {
+			isa = PBXGroup;
+			children = (
+				64A8BC211E52F8B700162EEB /* AlbumVideoViewController.h */,
+				64A8BC221E52F8B700162EEB /* AlbumVideoViewController.m */,
+			);
+			path = AlbumVideo;
+			sourceTree = "<group>";
+		};
+		64A8BC241E52F8C000162EEB /* iTunesVideo */ = {
+			isa = PBXGroup;
+			children = (
+				64A8BC251E52F8C000162EEB /* iTunesViewController.h */,
+				64A8BC261E52F8C000162EEB /* iTunesViewController.m */,
+			);
+			path = iTunesVideo;
+			sourceTree = "<group>";
+		};
+		BC3FF308DC30BA3758802D43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF079AC0ABA6C33902AABF96 /* Pods-GetLocalVideo.debug.xcconfig */,
+				0503D91694534A10F01A0411 /* Pods-GetLocalVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568104FB1D7D20B400C80E06 /* GetLocalVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568105131D7D20B400C80E06 /* Build configuration list for PBXNativeTarget "GetLocalVideo" */;
+			buildPhases = (
+				F5537B67301035D95EE20C54 /* [CP] Check Pods Manifest.lock */,
+				568104F81D7D20B400C80E06 /* Sources */,
+				568104F91D7D20B400C80E06 /* Frameworks */,
+				568104FA1D7D20B400C80E06 /* Resources */,
+				0C57CE5A437BAEE4F4D1402E /* [CP] Embed Pods Frameworks */,
+				9E18A2CECECD67AD3BDC8051 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetLocalVideo;
+			productName = GetLocalVideo;
+			productReference = 568104FC1D7D20B400C80E06 /* GetLocalVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		568104F41D7D20B400C80E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.picovr.picovr;
+				TargetAttributes = {
+					568104FB1D7D20B400C80E06 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TK984C3P5L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 568104F71D7D20B400C80E06 /* Build configuration list for PBXProject "GetLocalVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 568104F31D7D20B400C80E06;
+			productRefGroup = 568104FD1D7D20B400C80E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568104FB1D7D20B400C80E06 /* GetLocalVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568104FA1D7D20B400C80E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5681050F1D7D20B400C80E06 /* LaunchScreen.storyboard in Resources */,
+				5681050A1D7D20B400C80E06 /* Main.storyboard in Resources */,
+				64A8BC501E52FAA000162EEB /* Assets.xcassets in Resources */,
+				64A8BC4E1E52FA8900162EEB /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C57CE5A437BAEE4F4D1402E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetLocalVideo/Pods-GetLocalVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E18A2CECECD67AD3BDC8051 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetLocalVideo/Pods-GetLocalVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5537B67301035D95EE20C54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568104F81D7D20B400C80E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562ADF601DD59DAC00049A7B /* FileWatcher.m in Sources */,
+				64A8BC141E52F82100162EEB /* Notifications.m in Sources */,
+				562ADF471DD58F8E00049A7B /* VideoModel.m in Sources */,
+				568105041D7D20B400C80E06 /* AppDelegate.m in Sources */,
+				64A8BC1A1E52F82100162EEB /* UIImage+Extension.m in Sources */,
+				562ADF441DD58F7400049A7B /* TableViewCell.m in Sources */,
+				64A8BC161E52F82100162EEB /* SandBoxHelper.m in Sources */,
+				64A8BC271E52F8C000162EEB /* iTunesViewController.m in Sources */,
+				64A8BC1F1E52F82100162EEB /* UIView+SetRect.m in Sources */,
+				568105011D7D20B400C80E06 /* main.m in Sources */,
+				64A8BC151E52F82100162EEB /* NSString+category.m in Sources */,
+				562ADF501DD590FA00049A7B /* AlbumManager.m in Sources */,
+				64A8BC231E52F8B700162EEB /* AlbumVideoViewController.m in Sources */,
+				64A8BC1C1E52F82100162EEB /* UIImage+TintColor.m in Sources */,
+				56EEA5B21D7EC62400379B37 /* playerViewController.m in Sources */,
+				64A8BC191E52F82100162EEB /* UIImage+category.m in Sources */,
+				564BAD081D7D532000D63F56 /* FirstViewController.m in Sources */,
+				648B2DCC1E2DA4D500A1C0C6 /* TabBarViewController.m in Sources */,
+				64A8BC1E1E52F82100162EEB /* UIView+PVRExtention.m in Sources */,
+				64E33CDF1E53E5D4004B1A87 /* Foundation+Log.m in Sources */,
+				64A8BC1B1E52F82100162EEB /* UIImage+ScaleToSize.m in Sources */,
+				64A8BC1D1E52F82100162EEB /* UILabel+category.m in Sources */,
+				64A8BC181E52F82100162EEB /* UIColor+category.m in Sources */,
+				64A8BC171E52F82100162EEB /* Slider.m in Sources */,
+				649A6A561E2F489E00141A96 /* BaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		568105081D7D20B400C80E06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568105091D7D20B400C80E06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5681050D1D7D20B400C80E06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5681050E1D7D20B400C80E06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		568105111D7D20B400C80E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		568105121D7D20B400C80E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		568105141D7D20B400C80E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF079AC0ABA6C33902AABF96 /* Pods-GetLocalVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: wenwu zhou (TK984C3P5L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TK984C3P5L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GetLocalVideo/PrefixHeader.pch;
+				INFOPLIST_FILE = GetLocalVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GetLocalVideo/AdmobSDK/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwzh.localanditunesplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		568105151D7D20B400C80E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0503D91694534A10F01A0411 /* Pods-GetLocalVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: wenwu zhou (TK984C3P5L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TK984C3P5L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GetLocalVideo/PrefixHeader.pch;
+				INFOPLIST_FILE = GetLocalVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GetLocalVideo/AdmobSDK/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwzh.localanditunesplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568104F71D7D20B400C80E06 /* Build configuration list for PBXProject "GetLocalVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568105111D7D20B400C80E06 /* Debug */,
+				568105121D7D20B400C80E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568105131D7D20B400C80E06 /* Build configuration list for PBXNativeTarget "GetLocalVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568105141D7D20B400C80E06 /* Debug */,
+				568105151D7D20B400C80E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 568104F41D7D20B400C80E06 /* Project object */;
+}
